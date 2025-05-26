@@ -1,201 +1,433 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./fonts/fonts.css" />
-    <link rel="stylesheet" href="./styles/global.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Периодическая таблица интернет-элементов</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header class="header">
-      <nav class="header_menu">
-        <ul class="menu_links">
-          <li class="link_list main_link_marker">
-            <a class="link_main" href="0">главная</a>
-          </li>
-          <li class="link_list">
-            <a href="0">посмотреть лоты</a>
-          </li>
-          <li class="link_list">
-            <a href="0">об аукционе</a>
-          </li>
-        </ul>
-      </nav>
-      <a>
-        <img class="header_logo" src="./images/logo-black.svg" alt="image"/>
-      </a>
-      <address>
-        <ul class="address">
-          <li>
-            <a href="tel.+99995555555">+9 999 555 5555</a>
-          </li>
-          <li>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li>
-            наб. Принсенграхт 263-<br />
-            265, Амстердам
-          </li>
-        </ul>
-      </address>
-    </header>
-    <main>
-      <section class="cover">
-        <main class="overlay"></main>
-        <h1 class="cover_title">
-          <span class="text_cover">
-            О<span class="letter_spacing">НО</span>
-          </span>
-          <span class="text_cover text_center">
-            ТЕ<span class="letter_spacing">БЕ</span>
-          </span>
-          <span class="text_cover text_right">
-            <span class="letter_spacing">Н</span>AД<span
-              class="no_letter_spacing"
-              >О</span
+  <body class="page">
+    <main class="page__main periodic-table">
+      <h1 class="title">Периодическая таблица интернет-элементов</h1>
+      <div class="periodic-table__grid">
+        <div class="periodic-table__spacer periodic-table__spacer_top"></div>
+        <div class="periodic-table__spacer periodic-table__spacer_middle"></div>
+        <div class="periodic-table__spacer periodic-table__spacer_bottom"></div>
+        <div
+          class="periodic-table__spacer periodic-table__spacer_left-square"
+        ></div>
+        <div
+          class="periodic-table__spacer periodic-table__spacer_right-square"
+        ></div>
+        <a
+          href="https://github.com/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Gh</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >GitHub</span
             >
           </span>
-        </h1>
-        <main class="cover_description">
-          <p class="cover_text">Аукцион вещей, в которые никто не верил</p>
-          <button class="button">СДЕЛАТЬ СТАВКУ</button>
-        </main>
-      </section>
-      <section class="lots">
-        <h2 class="title_lots">Лоты</h2>
-        <main class="container_lots">
-          <main class="card_lots">
-            <a href="0">
-              <article class="card card_about_cinema">
-                <main class="overlay"></main>
-                <h3 class="card_title">
-                  Фильм режиссёра, который бросил киношколу
-                </h3>
-                <p class="text_on_card link_lots">
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
-                  ставка, если бы вы не знали, что режиссёр — Пол Томас
-                  Андерсон?
-                </p>
-              </article>
-            </a>
-          </main>
-          <main class="card_lots">
-            <a href="0">
-                <article class="card card_about_book">
-                <main class="overlay"></main>
-                <h3 class="card_title">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </h3>
-                <p class="text_on_card">
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и
-                  с переходами на древнеанглийский. В ней одновременно
-                  рассказывается о 16 июня 1904 года и об истории литературы,
-                  начиная с античных времён. И это всё накладывается на
-                  эпическую поэму Гомера. Сколько бы вы поставили на «Улисса»
-                  Джеймса Джойса?
-                </p>
-              </article>
-            </a>
-          </main>
-          <main class="card_lots">
-            <a href="0"> 
-               <article class="card card_about_picture">
-                <main class="overlay"></main>
-                <h3 class="card_title">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </h3>
-                <p class="text_on_card link_lots">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе
-                  что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
-                  котиков... Сколько бы вы на такое поставили, если бы не знали,
-                  что это — одна из революционных работ Кандинского?
-                </p>
-              </article>
-            </a>
-          </main>
-        </main>
-        <a href="0" class="view_more">посмотреть больше</a>
-      </section>
-      <section class="about">
-        <main class="about_container">
-          <main class="about_logo">
-            <img src="./images/logo-white.svg" alt="image" class="about_logo_image"/>
-          </main>
-          <main class="about_content">
-            <h2 class="title_about">ОБ АУКЦИОНЕ</h2>
-            <main class="about_text">
-              <p class="text_up">
-                Здесь вы не встретите очередное пафосное cобрание невероятно
-                дорогого антиквариата. Наши лоты вообще не должны были
-                попастьни на один аукцион. Потому что кому нужен дневник
-                девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому
-                нужны все эти странные вещи, созданные любителями?
-              </p>
-              <p class="text_down">
-                Слишком сложные или, наоборот, слишком простые. Опережающие
-                своё время. В пух и прах растерзанные критиками.
-                Непринятые и непонятые. Когда-то они казались просто неудачными Но, несмотря
-                на критику, кажущуюся простоту или сложность, сейчас без этих
-                лотов невозможно представить современную культуру. Когда в
-                эти вещи не верил никто, продолжали верить их создатели. И сейчас
-                эти лоты стали культовыми.
-              </p>
-            </main>
-          </main>
-        </main>
-      </section>
+        </a>
+        <a
+          href="https://www.npmjs.com/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Nm</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Npm</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://yandex.ru"
+          target="_blank"
+          class="periodic-element color color_self-develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_self-develop"
+              >Yn</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_self-develop"
+              >Яндекс</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://google.ru"
+          target="_blank"
+          class="periodic-element color color_self-develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_self-develop"
+              >Gl</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_self-develop"
+              >Google</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://slack.com/intl/en-ru/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Sl</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Slack</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0"
+          target="_blank"
+          class="periodic-element color color_self-develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_self-develop"
+              >Wp</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_self-develop"
+              >Википедия</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://codepen.io/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Co</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Codepen</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://music.yandex.ru/home"
+          target="_blank"
+          class="periodic-element color color_self-develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_self-develop"
+              >Ym</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_self-develop"
+              >Музыка</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://yandex.ru/q/"
+          target="_blank"
+          class="periodic-element color color_self-develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_self-develop"
+              >Qu</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_self-develop"
+              >Question</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://notion.so"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Nt</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Notion</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          class="periodic-element color color_social"
+        >
+          <span class="periodic-element__inner">
+            <span class="periodic-element__title periodic-element__title_social"
+              >Fb</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_social"
+              >Facebook</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://cdnjs.com/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Cn</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Cdn</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://www.twitch.tv/"
+          target="_blank"
+          class="periodic-element color color_self-develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_self-develop"
+              >Ti</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_self-develop"
+              >Twitch</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://vk.com/"
+          target="_blank"
+          class="periodic-element color color_social"
+        >
+          <span class="periodic-element__inner">
+            <span class="periodic-element__title periodic-element__title_social"
+              >Vk</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_social"
+              >Вконтакте</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://twitter.com/"
+          target="_blank"
+          class="periodic-element color color_social"
+        >
+          <span class="periodic-element__inner">
+            <span class="periodic-element__title periodic-element__title_social"
+              >Tw</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_social"
+              >Twitter</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://telegram.org/"
+          target="_blank"
+          class="periodic-element color color_social"
+        >
+          <span class="periodic-element__inner">
+            <span class="periodic-element__title periodic-element__title_social"
+              >Tm</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_social"
+              >Telegram</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://chrome.google.com/webstore/detail/touch-vpn/bihmplhobchoageeokmgbdihknkjbknd?hl=ru"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Vn</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Vpn</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://www.reddit.com/"
+          target="_blank"
+          class="periodic-element color color_social"
+        >
+          <span class="periodic-element__inner">
+            <span class="periodic-element__title periodic-element__title_social"
+              >Rd</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_social"
+              >Reddit</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://ru.stackoverflow.com/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >So</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >StackOvl</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://caniuse.com/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Ci</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Caniuse</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://www.youtube.com/"
+          target="_blank"
+          class="periodic-element color color_social"
+        >
+          <span class="periodic-element__inner">
+            <span class="periodic-element__title periodic-element__title_social"
+              >Yb</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_social"
+              >YouTube</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://developer.mozilla.org/ru/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Md</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >MDN</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://www.docker.com/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Dc</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Docker</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://praktikum.yandex.ru/profile/web/"
+          target="_blank"
+          class="periodic-element color color_develop"
+        >
+          <span class="periodic-element__inner">
+            <span
+              class="periodic-element__title periodic-element__title_develop"
+              >Yp</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_develop"
+              >Praktikum</span
+            >
+          </span>
+        </a>
+        <a
+          href="https://www.instagram.com/?hl=ru"
+          target="_blank"
+          class="periodic-element color color_social"
+        >
+          <span class="periodic-element__inner">
+            <span class="periodic-element__title periodic-element__title_social"
+              >Ig</span
+            >
+            <span
+              class="periodic-element__description periodic-element__description_social"
+              >Instagram</span
+            >
+          </span>
+        </a>
+      </div>
+      <div class="periodic-table__legend">
+        <div class="periodic-table__legend-item">
+          <span class="periodic-table__square color color_social"></span>
+          <p class="periodic-table__square-name">Социальные элементы</p>
+        </div>
+        <div class="periodic-table__legend-item">
+          <span class="periodic-table__square color color_develop"></span>
+          <p class="periodic-table__square-name">Разработка</p>
+        </div>
+        <div class="periodic-table__legend-item">
+          <span class="periodic-table__square color color_self-develop"></span>
+          <p class="periodic-table__square-name">Самообразование</p>
+        </div>
+      </div>
     </main>
-    <footer class="footer">
-      <address>
-        <ul class="address footer_address">
-          <li>
-            <a href="tel.+99995555555">+9 999 555 5555</a>
-          </li>
-          <li>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="header__address">
-            наб. Принсенграхт 263-<br />
-            265, Амстердам
-          </li>
-        </ul>
-      </address>
-      <nav class="footer_menu">
-        <ul class="footer_menu_links">
-          <li class="footer_links">
-            <a href="0" class="footer_links footer_main"> главная </a>
-          </li>
-          <li class="footer_links">
-            <a href="0" class="footer_links"> посмотреть лоты </a>
-          </li>
-          <li class="footer_links">
-            <a href="0" class="footer_links"> об аукционе </a>
-          </li>
-        </ul>
-      </nav>
-      <main class="footer_images">
-        <main>
-          <a href="0">
-            <img src="./images/yt.svg" alt="image" class="images_footer" />
-          </a>
-        </main>
-        <main>
-          <a href="0">
-            <img src="./images/vk.svg" alt="image" class="images_footer" />
-          </a>
-        </main>
-        <main>
-          <a href="0">
-            <img
-              src="./images/pinterest.svg"
-              alt="image"
-              class="images_footer"
-            />
-          </a>
-        </main>
-      </main>
-    </footer>
   </body>
 </html>
